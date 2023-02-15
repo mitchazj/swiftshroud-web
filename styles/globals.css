@@ -54,6 +54,7 @@
   width: 580px;
   height: 340px;
   opacity: 0.8;
+  animation: notion 8s linear infinite;
 }
 .w-linear {
   top: 50px;
@@ -61,6 +62,7 @@
   width: 320px;
   height: 190px;
   opacity: 0.7;
+  animation: lin 8s linear infinite;
 }
 .w-gmail {
   bottom: 85px;
@@ -68,6 +70,7 @@
   width: 360px;
   height: 200px;
   opacity: 0.4;
+  animation: mail 8s linear infinite;
 }
 .w-gcal {
   bottom: 30px;
@@ -75,6 +78,91 @@
   width: 280px;
   height: 180px;
   opacity: 0.7;
+  animation: cal 8s linear infinite;
+}
+
+@keyframes notion {
+  0% {
+    transform: scale(0%);
+  }
+  8% {
+    transform: scale(0%);
+  }
+  10% {
+    transform: scale(100%);
+  }
+  59% {
+    transform: scale(100%);
+  }
+  60% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(0%);
+  }
+}
+
+@keyframes lin {
+  0% {
+    transform: scale(0%);
+  }
+  12% {
+    transform: scale(0%);
+  }
+  14% {
+    transform: scale(100%);
+  }
+  63% {
+    transform: scale(100%);
+  }
+  64% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(0%);
+  }
+}
+
+@keyframes mail {
+  0% {
+    transform: scale(0%);
+  }
+  13% {
+    transform: scale(0%);
+  }
+  15% {
+    transform: scale(100%);
+  }
+  64% {
+    transform: scale(100%);
+  }
+  65% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(0%);
+  }
+}
+
+@keyframes cal {
+  0% {
+    transform: scale(0%);
+  }
+  14% {
+    transform: scale(0%);
+  }
+  16% {
+    transform: scale(100%);
+  }
+  65% {
+    transform: scale(100%);
+  }
+  66% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(0%);
+  }
 }
 
 .rounded-border-highlight {

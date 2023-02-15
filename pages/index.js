@@ -110,16 +110,17 @@ export default function Home() {
         </div>
         <div className="relative">
           <div className="with-squares">
-            <div className="absolute w-full h-full left-0 top-0">
+            <div className="absolute w-full h-full left-0 top-0 opacity-30 md:opacity-50 lg:opacity-60 xl:opacity-100">
               {windows.map((w) => (
                 <div className={`absolute w-${w.title}`}>
                   <Code title={w.title} imgUrl={w.imgUrl} />
                 </div>
               ))}
             </div>
-            <div className="py-56 text-center with-squares-content">
+            <div className="py-48 text-center with-squares-content">
+              <div style={{ fontSize: '86px' }}>👻</div>
               <h1 className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-indigo-400 to-violet-300">
-                SwiftShroud
+                Shroud
               </h1>
               <h2 className="text-white font-bold text-2xl max-w-[620px] px-10 mx-auto leading-tight py-5">
                 Easily dismiss &amp; recall common macOS apps with assignable
